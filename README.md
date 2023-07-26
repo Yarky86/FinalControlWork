@@ -20,3 +20,12 @@ The task
 [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
 [“Russia”, “Denmark”, “Kazan”] → []
+
+Solving
+
+1. Get a array size as a variable from the user using return variable method and check this variable for converting to int32 and greating than 0;
+2. Create a string array with size from (1) using return variable method
+3. Fill the array from (2.) using input from the user, check this input for empty values
+4. Create new string array with null size
+5. Using cycle check every item in the first array for items with 3 or less characters, if yes resize the new array for 1 item and write the value with 3 or less characters from the first array to the new array
+6. Print both arrays
